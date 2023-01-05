@@ -1,0 +1,102 @@
+
+.menu a.actif {    
+    background-color: #000 ; 
+    color: #1ABC9C ;
+    border-color: #1ABC9C ;
+}
+.menu a:hover,
+.menu a:hover.actif{
+  background-color: #ed2794;
+  color: #ffe843;
+  border-color: #ffe843;
+}* 
+
+{
+    font-family: 'Lucida Sans Unicode';
+    /*margin: 0;*/
+    
+    line-height: 2em;
+}
+
+body {
+   /*background:black;*/
+  /* background:#000000;*/
+/*    background-image: url("../images/redABK_2240ret.JPG");*/
+
+    background-image: url("pendu.jpeg");
+
+    background-repeat: repeat;
+}
+
+
+span.popword {
+    position: relative;
+    border-bottom: 1px dashed #999;
+}
+
+div.enonce span.popword {
+    border-bottom: 1px dashed #777;
+}
+
+span.popword span.popup {
+    display: none;
+    z-index : 50;
+}
+
+
+span.popword:hover span.popup {
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: -160px;
+	width: 320px;
+	margin: 0px;
+	padding: 10px;
+	color: #2c7435;
+	font-weight: normal;
+	background: #e5e5e5;
+	text-align: left;
+	border: 1px solid #666;
+}
+
+
+div.enonce {
+    box-shadow: 5px 5px 5px #5c6a95;
+    background-color:#8c9ab5;
+    margin:3em 15em 3em 3em;
+    border: solid 2px #5c6a95;
+    padding: 2ex 2ex 1.5ex 2ex;
+}
+
+div.prop {
+    box-shadow: 5px 5px 5px #a41c45;
+    background-color:#F6A2A2;
+    margin:3em 15em 3em 3em;
+    border: solid 2px #4c8465;
+    padding: 2ex 2ex 1.5ex 2ex;
+}
+
+
+div.def {
+    box-shadow: 5px 5px 5px #1ca445;
+    background-color:#A2F6A2;
+    margin:3em 15em 3em 3em;
+    border: solid 2px #4c8465;
+    padding: 2ex 2ex 1.5ex 2ex;
+}
+
+
+
+
+div.corps, div.corpsw {
+    opacity: 1;
+    box-shadow: 5px 5px 5px #1ca445;
+    background-color:#F2F6F2;
+    margin:3em 4em 3em 3em;
+    border: solid 2px #4c8465;
+    padding: 2ex 2ex 1.5ex 2ex;
+}
+
+div.corpsw {
+    opacity: 1;
+}
